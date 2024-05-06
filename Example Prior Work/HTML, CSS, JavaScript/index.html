@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- 
+    JavaScript Table Practice 
+    Jeffrey Rose
+    Mar-03-2024
+    index.html
+-->
+    <meta charset="utf-8" />
+    <title>Table Practice</title>
+    <link href="decor.css" rel="stylesheet" />
+    <script src="ofCourse.js" defer></script>
+</head>
+<body onload="loaded()">
+    <header>
+        <h1>Table Practice</h1>
+        <nav></nav>
+    </header>
+    <section>
+        <article>
+            <!-- Table Stuff -->
+            <table>
+                <caption>Year 1 ITPR Winter 2024 Schedule</caption>
+                <colgroup>
+                <col id="firstcol"/>
+                </colgroup>
+                <thead><tr>
+                    <th id="timerow">Time</th>
+                    <th class="weekend">Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th class="weekend">Saturday</th>
+                </tr></thead>
+                <tbody><tr>
+                    <th class="gencell">8:30</th>
+                    <td class="weekend"></td>
+                    <td class="block" id="mon1"></td>
+                    <td class="block" id="tue1"></td>
+                    <td class="block" id="wed1"></td>
+                    <td class="block" id="thr1"></td>
+                    <td class="block" id="fri1"></td>
+                    <td class="weekend"></td>
+                </tr>
+                <tr>
+                    <th class="gencell">9:30</th>
+                    <td class="weekend"></td>
+                    <td class="block" id="mon2"></td>
+                    <td class="block" id="tue2"></td>
+                    <td class="block" id="wed2"></td>
+                    <td class="block" id="thr2"></td>
+                    <td class="block" id="fri2"></td>
+                    <td class="weekend"></td>
+                </tr>
+                <tr>
+                    <th class="gencell">10:30</th>
+                    <td class="weekend"></td>
+                    <td class="block" id="mon3"></td>
+                    <td class="block" id="tue3"></td>
+                    <td class="block" id="wed3"></td>
+                    <td class="block" id="thr3"></td>
+                    <td class="block" id="fri3"></td>
+                    <td class="weekend"></td>
+                </tr>
+                <tr>
+                    <th id="lunchrow">11:30</th>
+                    <td class="weekend"></td>
+                    <td class="block">Lunch</td>
+                    <td class="block">Lunch</td>
+                    <td class="block">Lunch</td>
+                    <td class="block">Lunch</td>
+                    <td class="block">Lunch</td>
+                    <td class="weekend"></td>
+                </tr>
+                <tr>
+                    <th class="gencell">12:30</th>
+                    <td class="weekend"></td>
+                    <td class="block" id="mon4"></td>
+                    <td class="block" id="tue4"></td>
+                    <td class="block" id="wed4"></td>
+                    <td class="block" id="thr4"></td>
+                    <td class="block" id="fri4"></td>
+                    <td class="weekend"></td>
+                </tr>
+                <tr>
+                    <th class="gencell">1:30</th>
+                    <td class="weekend"></td>
+                    <td class="block" id="mon5"></td>
+                    <td class="block" id="tue5"></td>
+                    <td class="block" id="wed5"></td>
+                    <td class="block" id="thr5"></td>
+                    <td class="block" id="fri5"></td>
+                    <td class="weekend"></td>
+                </tr>
+                <tr>
+                    <th class="gencell">2:30</th>
+                    <td class="weekend"></td>
+                    <td class="block" id="mon6"></td>
+                    <td class="block" id="tue6"></td>
+                    <td class="block" id="wed6"></td>
+                    <td class="block" id="thr6"></td>
+                    <td class="block" id="fri6"></td>
+                    <td class="weekend"></td>
+                </tr></tbody>
+                <tfoot><tr>
+                    <th colspan="8" id="quote"></th>
+                </tr></tfoot>
+            </table>
+            <button id="touchTheButt" onclick="weekends()">Click or Press "S" to Show/Hide Weekends</button>
+            <script>"weekends()"</script>
+        </article>
+    </section>
+    <img id="bee" src="what_could_it_bee.jpeg">
+</body>
+</html>
