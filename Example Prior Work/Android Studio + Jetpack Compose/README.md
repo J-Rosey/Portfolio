@@ -1,0 +1,1 @@
+A simple calculator made in Android Studio using Jetpack Compose.

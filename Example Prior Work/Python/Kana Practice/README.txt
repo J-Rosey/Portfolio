@@ -1,0 +1,1 @@
+A program to randomly select a user-specified amount of hiragana or katakana for the user to practice drawing from memory.

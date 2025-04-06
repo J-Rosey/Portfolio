@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+</head>
+<!-- id goes to label, name goes to php -->
+<body>
+    <h1>INET Assignment 3</h1>
+    <h3 id="name">Jeffrey Rose</h3>
+    <h2>Part 1: Grades</h2>
+    <form id="grades" action="grades.php" method="post">
+        <label for="grade">Enter Grade: </label>
+        <input type="text" id="grade" name="input">
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <h2>Part 2: Pizza Time</h2>
+    <form id="pizzatime" action="pizza.php" method="post">
+        <label for="pizzatime">Pizza Size: </label>
+        <select name="pizza" id="pizzatime">
+            <option value="none" selected hidden>Select Pizza Size</option>
+            <option value="small">Small ($9.00)</option>
+            <option value="medium">Medium ($12.50)</option>
+            <option value="large">Large ($15.00)</option>
+            <option value="xlarge">Extra Large ($17.50)</option>
+        </select> <br>
+        <label for="">Pizza Toppings:</label><br>
+        <input type="checkbox" id="cheese" name="cheese" value="cheese" checked>
+        <label for="cheese">Cheese (free)</label><br>
+
+        <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+        <label for="pepperoni">Pepperoni ($1)</label><br>
+
+        <input type="checkbox" id="olives" name="olives" value="olives">
+        <label for="olives">Olives ($1)</label><br>
+
+        <input type="checkbox" id="pineapple" name="pineapple" value="pineapple">
+        <label for="pineapple">Pineapple ($1)</label><br>
+
+        <input type="checkbox" id="ham" name="ham" value="ham">
+        <label for="ham">Ham ($1)</label><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
